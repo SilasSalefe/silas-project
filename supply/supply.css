@@ -1,4 +1,4 @@
- 
+
 body {
     display:block;
     position: relative;
@@ -8,11 +8,11 @@ body {
  }
  
  #estilo_img{
-    padding: 10px;
-    text-align: center; 
+    text-align: center;
+    margin: 20px;
 }
 
-img {
+#estilo_img img {
     width: 150px;
     height: 150px;
 }
@@ -21,4 +21,47 @@ h1 {
     text-align: center; 
     color: white;
     font-size: 25px;
+}
+
+#notificacao_img {
+    display: flex;
+    justify-content: end;
+    margin-right: 45px; 
+}
+#notificacao_img img{
+    position: absolute;
+    top: 0;
+    width: 25px;
+    height:25px;
+}
+#clickCount {
+    position: absolute;
+    top: 0;
+}
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+}
+#corpo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    width: 1000px;
+    height: 65px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+   
+}
+
+
+.botao_editar {
+    margin-left: auto;
+    padding: 5px 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
 }
