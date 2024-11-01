@@ -24,9 +24,10 @@ h1 {
 #notificacao_img {
     display: flex;
     justify-content: end;
-    margin-right: 55px; 
+    margin-right: 50px; 
+    
 }
-#notificacao_img img{
+#notificacao_img input{
     position: absolute;
     top: 0;
     width: 25px;
