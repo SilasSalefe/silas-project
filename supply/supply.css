@@ -73,13 +73,14 @@ h3 {
 
 .dentro_categorias{
     width: 175px;
-    height: 158px;
+    height: 155px;
     text-align: center;
     border-radius: 48px;
     transition: 0.7s; 
+    padding: 20px;
 }
 .dentro_categorias:hover{
-    width: 135px; /*transição para aumentar o tamanho da caixa*/
+    width: 145px; /*transição para aumentar o tamanho da caixa*/
     height: 145px;
     transition: 0.7s; /*transição para aumentar o tamanho da caixa*/
     text-align: center;
@@ -87,15 +88,10 @@ h3 {
     background-color: red;
 }
 .img_categorias{
-    transition: 0.7s; 
-    width: 100px; 
-    height: auto;
-        }
-.img_categorias:hover{
-    transition: 0.7s; 
-    width: 115px; 
+    width: 130px; 
     height: auto;
 }
+
 .parte_categorias {
    display: flex;
    justify-content: space-between;
@@ -148,19 +144,24 @@ h3 {
  }
  
  .parte_vendas {
-   
-    display: flex;
-    justify-content: space-between;
-    margin: 50px;
-    
+    display: grid;
+    grid-template-columns:100px 100px 100px 100px;
+    grid-template-rows: 100px;
+    text-align: center;
+    margin-left: 22%;
+    gap: 180px;
+ }
+ .display_grid {
+   width: 230px;
+   height: 230px;
  }
  .img_vendas{
-    transition: 1s; 
+    transition: 0.7s; 
     width: 200px; 
     height: auto;
         }
 .img_vendas:hover{
-    transition: 1s; 
+    transition: 0.7s; 
     width: 220px; 
     height: auto;
 }
