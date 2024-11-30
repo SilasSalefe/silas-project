@@ -1,8 +1,9 @@
 body {
     margin: 0;
+    padding: 0;
     display:block;
     position: relative;
-    background: linear-gradient(black,red,black);
+    background: radial-gradient(red,black);
     color: white;
  }
  .link_supply{
@@ -33,35 +34,20 @@ img{
     transition: 0.7s;
     background-color: black;
 }
-.parte_maquinas{
+.parte_caixa{
     display: flex;
     justify-content: space-between;
     margin: 5%;
     text-align: center;
 }
-#idparte_maquinas{
-    text-align: center;
-    margin-top: 5%;
-    margin-bottom: -2%;
-}
-.parte_maquinas span{
-    display: block;
-    margin-top: -15px;
-}
-.parte_moveis {
-    text-align: center;
-    display: flex;
-    justify-content: space-between;
-    margin: 5%;
- }
-#idparte_moveis{
-    text-align: center;
-    margin-top: 10%;
-    margin-bottom: -2%;
-}
-.parte_moveis span{
+.parte_caixa span{
     display:block;
     margin-top: -15px;
+}
+.parte_titulo{
+    text-align: center;
+    margin-top: 7%;
+    margin-bottom: -2%;
 }
 .botao_compra{
     width: 120px;
