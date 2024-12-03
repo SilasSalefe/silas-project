@@ -3,8 +3,9 @@ body {
     padding: 0;
     display:block;
     position: relative;
-    background: radial-gradient(red,black);
+    background:linear-gradient(red,black,silver) ;
     color: white;
+   
  }
  .link_supply{
     font-style:initial;
@@ -18,7 +19,7 @@ body {
     background-color: black;
     cursor: pointer;
 }
-img{ 
+.parte_edit img{ 
     width: 73%; 
     height: auto;
     border-radius: 20px;
@@ -75,4 +76,13 @@ img{
     justify-content: center; /* Centraliza os botões horizontalmente */
     align-items: center; /* Alinha os botões verticalmente */
     margin-top: 10px; /* Adiciona espaçamento acima */
+}
+#img-carrinho{
+    display: flex;
+    justify-content: end;
+    margin-right: 50px;  
+}
+#img-carrinho img{
+    width: 40px;
+    height:40px;
 }
